@@ -64,7 +64,7 @@ def crawl_web(seed):
     return index, graph
 
 def compute_ranks(graph):
-    d = 0.8 #damping factor
+    d = 0.85 #damping factor
     numloops = 10
     ranks = {}
     npages = len(graph)
